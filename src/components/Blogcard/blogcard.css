@@ -1,0 +1,36 @@
+.blogCard{
+    width: 33.33%;
+    padding-right:15px ;
+}
+.blogImg img{
+    width: 100%;
+}
+.blogTittle{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.blogDetails{
+    color: #a1a1a1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blogDetails span{
+    margin-right: 10px;
+}
+
+.blogNews{
+    color: #30e3ca;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.blogNews:hover{
+    color: #18af9a;
+}
+.blogText{
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 1.5;
+}

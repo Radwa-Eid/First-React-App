@@ -1,0 +1,25 @@
+.products {
+  padding-bottom: 70px;
+}
+.productHeading {
+  color: #30e3ca;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.productPara {
+  color: #4d4d4d;
+  margin-top: 0;
+}
+.productContent {
+  position: relative;
+}
+.productContent::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 8%;
+  background-color: #30e3ca;
+  left: 46%;
+  bottom: -20%;
+}

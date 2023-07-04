@@ -1,0 +1,61 @@
+.welcome{
+    position: relative;
+    background-image: url(../../img/hero_2.jpg.webp);
+    width: 100%;
+    background-position: 50% 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.8s;
+}
+.welcome::before{
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    inset: 0;
+}
+.welcomeContent{
+    position: relative;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.welcomeHeading{
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+.welcomePara{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.welcomeForm{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 7px;
+    padding: 20px;
+    width: 100%;
+}
+.form-control{
+    height: 43px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    display: block;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #495057;
+    width: 20%;
+}
+.searchBtn{
+    background-color: #30e3ca;
+    color: black;
+    width: 10%;
+    cursor: pointer;
+    font-size: 18px;
+}

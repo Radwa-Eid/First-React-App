@@ -1,0 +1,47 @@
+.newsletter{
+    padding: 50px 0;
+    background-color: #30e3ca;
+    color: white;
+}
+.newsText{
+    width: 50%;
+}
+.newsText p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.newsText h2,p{
+    margin: 0;
+}
+.newsForm{
+    display: flex;
+}
+.email{
+    border: none;
+    font-style: italic;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    height: 43px;
+    width: 100%;
+}
+.email::placeholder{
+    color: #fff;
+}
+.emailBtn{
+    outline: none;
+    background-color: #fff;
+    border:1px solid transparent;
+    box-shadow: none;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #495057;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.emailBtn:hover{
+    background-color: #000;
+    color: #fff;
+}

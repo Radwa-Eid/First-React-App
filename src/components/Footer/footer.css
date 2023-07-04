@@ -1,0 +1,90 @@
+.footer{
+    background-color: #333333;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    line-height: 1.7;
+    color: #737373;
+    font-weight: 400;
+    font-size: 17px;
+}
+.footerContent{
+    width: 75%;
+}
+.foot{
+    align-items: baseline;
+}
+.about{
+    width: 50%;
+    padding-right: 15px;
+}
+.aboutHeading{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navigation{
+    width: 25%;
+}
+.navigation ul{
+    margin-left: 0;
+    padding-left: 0;
+    transition: all 0.2s;
+}
+.navigation ul li{
+    margin-bottom: 10px;
+}
+.navigation ul li span:hover{
+    transition: all 0.2s;
+    color: #fff;
+    cursor: pointer;
+}
+.socialMedia{
+    display: flex;
+    align-items: center;
+}
+.socialMedia li span{
+    margin-right: 10px;
+}
+.footerSearch{
+    width: 25%;
+}
+.searchForm{
+    display: flex;
+    align-items: center;
+    border:1px solid #6c757d;
+    width: 100%;
+}
+.productSearch{
+    height: 35px;
+    background: transparent;
+    outline: none;
+    border-color: #6c757d;
+    box-shadow: none;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: inherit;
+    font-weight: 400;
+    width: 100%;
+}
+.footBtn{
+    height: 46px;
+    padding: 0.78rem 0.75rem;
+    font-size: 1rem;
+    background-color: #30e3ca;
+    border:1px solid #30e3ca;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.footBtn:hover{
+    background-color: #1cd1b7;
+    border-color: #1bc5ad;
+}
+.copyRight{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 50px;
+    text-align: center;
+}
